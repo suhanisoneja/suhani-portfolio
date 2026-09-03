@@ -421,10 +421,20 @@ body {
 }
 
 .info-card li::before {
-    content: '•';
+    content: '\2022';
     position: absolute;
     left: 0;
     color: var(--secondary);
+}
+
+.pink-details {
+    color: #ec4899 !important;
+}
+
+.pink-details strong {
+    color: #ec4899;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(236, 72, 153, 0.3);
 }
 
 .interest-tags {
