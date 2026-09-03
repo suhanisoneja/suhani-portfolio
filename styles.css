@@ -437,6 +437,11 @@ body {
     text-shadow: 0 0 10px rgba(236, 72, 153, 0.3);
 }
 
+.pink-heading,
+.pink-heading i {
+    color: #ec4899 !important;
+}
+
 .interest-tags {
     display: flex;
     flex-wrap: wrap;
@@ -450,6 +455,14 @@ body {
     font-size: 0.85rem;
     color: var(--gray-light);
     transition: all 0.3s ease;
+}
+
+.tag-pink,
+.tag-pink:hover {
+    color: #ec4899 !important;
+    background: rgba(236, 72, 153, 0.15);
+    border: 1px solid rgba(236, 72, 153, 0.4);
+    text-shadow: 0 0 10px rgba(236, 72, 153, 0.4);
 }
 
 .tag:hover {
